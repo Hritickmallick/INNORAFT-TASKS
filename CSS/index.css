@@ -1,0 +1,295 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: 'Poppins';
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+
+.section-nav-header{
+    background-color: #2aaa9f;
+    padding: 10px 0px;
+}
+
+.nav-header{
+   display: flex;
+}
+
+.nav-header-col{
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+}
+
+.nav-header-row{
+    color: #fff;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-header-row > img{
+    padding-right: 5px;
+}
+
+.nav-header-row > a > p{
+    display: inline-block;
+    color: #fff;
+}
+
+.nav-header-row > ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-header-row > ul > li{
+    padding: 0px 10px;
+}
+
+.nav-header-row > ul > li > a{
+    color: #fff;
+    padding-right: 10px;
+}
+
+.nav-header-row > ul > .active-link{
+    background-color: #e42e2e;
+    border-radius: 17px;
+    padding: 10px 10px;
+}
+
+.nav-bar{
+    display: flex;
+    padding: 15px 0px;
+}
+
+.nav-bar-col{
+    margin-right: auto;
+}
+
+.nav-bar-col-1{
+    width: 20%;
+}
+
+.nav-bar-col-2{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.nav-bar-col-row > ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-bar-col-row>ul>li{
+    padding: 0px 10px;
+}
+
+.nav-bar-col-row>ul>li>a{
+    padding-right: 5px;
+    color: #000;
+    font-size: 14px;
+}
+
+#search{
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+.nav-bar-col-row > .fa-solid{
+    margin-left: -30px;
+    font-size: 20px;
+}
+
+.section-banner{
+    background: url(../Images/banner.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+   height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.section-banner::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color:#111;
+    opacity: 0.3;
+}
+
+.banner-content{
+    position: relative;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.banner-article > h1{
+    font-size: 40px;
+    color: #fff;
+    margin: 0px;
+}
+
+.banner-article > span{
+    font-size: 20px;
+    color: #fff;
+}
+
+.banner-article{
+    padding-bottom: 15px;
+    width: 70%;
+    margin: auto;
+}
+
+.banner-link{
+    display: inline-block;
+    background-color:#e42e2e;
+    padding: 16px 30px;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.banner-link > a{
+    color: #fff;
+}
+
+
+
+.achievements-social-media-icons{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media-icons{
+    display: flex;
+    flex-direction: column;
+}
+
+.achievements{
+    margin: auto;
+}
+
+.facebook{
+    width: 10px;
+}
+
+.social-media-icons > img{
+    padding: 5px 0px;
+}
+
+.achievements > img{
+    padding:0px 10px;
+}
+
+.year-img{
+    border-right: 1px solid #fff;
+}
+
+.doctors-form{
+    width: 85%;
+    margin: auto;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-color: #fff;
+    margin-top: -30px;
+    position: relative;
+}
+
+.form{
+    padding: 5px 14px;
+}
+
+.form-reference{
+    display: flex;
+    align-items: center;
+}
+
+.form-reference > p{
+    margin-right: auto;
+}
+
+.form-reference{
+    padding: 0px 5px;
+}
+
+#hospital{
+    height: 42px;
+    width: 250px;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    margin: 0px 5px;
+}
+
+#Speciality{
+    height: 42px;
+    width: 250px;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    margin: 0px 5px;
+}
+
+#Doctor{
+    height: 42px;
+    width: 250px;
+  border-radius: 20px;
+  font-family: 'Poppins';
+    font-size: 16px;
+    margin: 0px 5px;
+}
+
+.search{
+    padding: 9px 37px;
+    border-radius: 20px;
+    border: none;
+    background-color: #e42e2e;
+    font-size: 13px;
+    font-family: 'Poppins';
+    color: #fff;
+}
+
+.form-reference > p{
+    font-size: 16px;
+    color: #e42e2e;
+    padding-left: 15px;
+}
+
+.form-reference > a{
+    color:#2aaa9f;
+    font-size: 16px;
+    padding-right: 15px;
+    text-decoration: underline;
+}
+
+.form > .fa-solid{
+    font-size: 14px;
+    margin-left: -34px;
+    color: #fff;
+}
